@@ -2,7 +2,6 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity top is
-    generic (N : integer := 8);
     port (
         -- Receiver
         RRD : in std_logic;
